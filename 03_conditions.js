@@ -74,7 +74,7 @@ let discount = isMember ? 0.2 : 0;
 console.log(discount);
 
 
-// switch statement
+// switch case statement
 switch (new Date().getDay()) {
   case 0:
     day = "Sunday";
@@ -99,6 +99,7 @@ switch (new Date().getDay()) {
 }
 
 
+// switch case
 // getDay() method returns the weekday as a number between 0 and 6
 let text;
 switch (new Date().getDay()) {
@@ -113,7 +114,7 @@ switch (new Date().getDay()) {
 }
 
 
-// switch
+// switch case
 let x = "0";
 switch (x) {
   case 0:
